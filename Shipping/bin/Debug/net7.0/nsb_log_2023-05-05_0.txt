@@ -1,0 +1,4 @@
+﻿2023-05-05 11:09:10.702 INFO  Logging to 'C:\GIT\NServiceBus\Shipping\bin\Debug\net7.0\' with level Info
+2023-05-05 11:09:10.867 INFO  No valid license could be found. Falling back to trial license with start date '2023-05-03'.
+2023-05-05 11:09:18.182 INFO  Received OrderPlaced, OrderId = 1ec0c76a-c74b-4ee3-89c8-07423f53e20d - Should we ship now?
+2023-05-05 11:09:18.274 INFO  Received OrderBilled, OrderId = 1ec0c76a-c74b-4ee3-89c8-07423f53e20d - Should we ship now?

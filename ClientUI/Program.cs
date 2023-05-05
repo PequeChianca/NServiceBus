@@ -1,14 +1,12 @@
-﻿
+﻿using ClientUI;
+using NServiceBusMessaging;
+using Sales.Messages;
+
 var serviceName = "ClientUI";
 Console.Title = serviceName;
-Console.WriteLine($"Start {serviceName}");
-var endpointConfig = new EndpointConfiguration(serviceName);
-var transport = endpointConfig.UseTransport<LearningTransport>();
-var endpointInstance = await Endpoint.Start(endpointConfig).ConfigureAwait(false);
 
-await ClientUI.HumanInteraction.StartConsole(endpointInstance).ConfigureAwait(false);
+var endpointInstance = await NServiceBusExtensions.AddNServiceBusMessaging(serviceName, SalesMessageRoute.Create());
 
-Console.WriteLine("Press Enter to exit...");
-Console.ReadLine();
+await endpointInstance.RunJob(HumanInteraction.StartConsole);
 
-await endpointInstance.Stop().ConfigureAwait(false);
+

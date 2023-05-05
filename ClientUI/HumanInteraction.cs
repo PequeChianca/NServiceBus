@@ -1,4 +1,4 @@
-using Messages.Commands;
+using Sales.Messages.Commands;
 using NServiceBus.Logging;
 
 namespace ClientUI;
@@ -25,7 +25,7 @@ public static class HumanInteraction
 
                     // Send the command to the local endpoint
                     log.Info($"Sending PlaceOrder command, OrderId = {command.OrderId}");
-                    await endpointInstance.SendLocal(command)
+                    await endpointInstance.Send(command)
                         .ConfigureAwait(false);
 
                     break;

@@ -8,12 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NServiceBus" Version="8.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\Billing.Messages\Billing.Messages.csproj" />
     <ProjectReference Include="..\Sales.Messages\Sales.Messages.csproj" />
-    <ProjectReference Include="..\NServiceBusMessaging\NServiceBusMessaging.csproj" />
   </ItemGroup>
 
 </Project>
