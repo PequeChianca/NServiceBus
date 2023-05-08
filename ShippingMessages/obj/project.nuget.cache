@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UNmP6qDtejTPPEeti2JY01HB0MWM9n1ihIsEwW+joSUAgy14v5J202Ssc/93nfbyRRfAtF88Golz+reHlxoAIQ==",
+  "dgSpecHash": "5e6beiSEzliuhuf51ny/R/Plo5lsES+SKbzZCowjDN4q/OXNZiNCpT/o0iTJnOrXKiYbSwTk31ugzP4pMcj1Sw==",
   "success": true,
-  "projectFilePath": "C:\\GIT\\NServiceBus\\Shipping\\Shipping.csproj",
+  "projectFilePath": "C:\\GIT\\NServiceBus\\ShippingMessages\\Shipping.Messages.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User01\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\User01\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

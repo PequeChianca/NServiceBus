@@ -177,19 +177,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Billing.Messages/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "NServiceBusMessaging": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Billing.Messages.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Billing.Messages.dll": {}
-        }
-      },
       "NServiceBusMessaging/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -201,33 +188,6 @@
         },
         "runtime": {
           "bin/placeholder/NServiceBusMessaging.dll": {}
-        }
-      },
-      "Sales.Messages/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "NServiceBus": "8.0.3",
-          "NServiceBusMessaging": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Sales.Messages.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Sales.Messages.dll": {}
-        }
-      },
-      "Shipping.Messages/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "NServiceBusMessaging": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Shipping.Messages.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Shipping.Messages.dll": {}
         }
       }
     }
@@ -474,32 +434,15 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Billing.Messages/1.0.0": {
-      "type": "project",
-      "path": "../Billing.Messages/Billing.Messages.csproj",
-      "msbuildProject": "../Billing.Messages/Billing.Messages.csproj"
-    },
     "NServiceBusMessaging/1.0.0": {
       "type": "project",
       "path": "../NServiceBusMessaging/NServiceBusMessaging.csproj",
       "msbuildProject": "../NServiceBusMessaging/NServiceBusMessaging.csproj"
-    },
-    "Sales.Messages/1.0.0": {
-      "type": "project",
-      "path": "../Sales.Messages/Sales.Messages.csproj",
-      "msbuildProject": "../Sales.Messages/Sales.Messages.csproj"
-    },
-    "Shipping.Messages/1.0.0": {
-      "type": "project",
-      "path": "../ShippingMessages/Shipping.Messages.csproj",
-      "msbuildProject": "../ShippingMessages/Shipping.Messages.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Billing.Messages >= 1.0.0",
-      "Sales.Messages >= 1.0.0",
-      "Shipping.Messages >= 1.0.0"
+      "NServiceBusMessaging >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -508,11 +451,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\NServiceBus\\Shipping\\Shipping.csproj",
-      "projectName": "Shipping",
-      "projectPath": "C:\\GIT\\NServiceBus\\Shipping\\Shipping.csproj",
+      "projectUniqueName": "C:\\GIT\\NServiceBus\\ShippingMessages\\Shipping.Messages.csproj",
+      "projectName": "Shipping.Messages",
+      "projectPath": "C:\\GIT\\NServiceBus\\ShippingMessages\\Shipping.Messages.csproj",
       "packagesPath": "C:\\Users\\User01\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\NServiceBus\\Shipping\\obj\\",
+      "outputPath": "C:\\GIT\\NServiceBus\\ShippingMessages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -529,14 +472,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\GIT\\NServiceBus\\Billing.Messages\\Billing.Messages.csproj": {
-              "projectPath": "C:\\GIT\\NServiceBus\\Billing.Messages\\Billing.Messages.csproj"
-            },
-            "C:\\GIT\\NServiceBus\\Sales.Messages\\Sales.Messages.csproj": {
-              "projectPath": "C:\\GIT\\NServiceBus\\Sales.Messages\\Sales.Messages.csproj"
-            },
-            "C:\\GIT\\NServiceBus\\ShippingMessages\\Shipping.Messages.csproj": {
-              "projectPath": "C:\\GIT\\NServiceBus\\ShippingMessages\\Shipping.Messages.csproj"
+            "C:\\GIT\\NServiceBus\\NServiceBusMessaging\\NServiceBusMessaging.csproj": {
+              "projectPath": "C:\\GIT\\NServiceBus\\NServiceBusMessaging\\NServiceBusMessaging.csproj"
             }
           }
         }

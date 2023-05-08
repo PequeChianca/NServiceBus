@@ -1,0 +1,15 @@
+C:\GIT\NServiceBus\ShippingMessages\bin\Debug\net7.0\Shipping.Messages.deps.json
+C:\GIT\NServiceBus\ShippingMessages\bin\Debug\net7.0\Shipping.Messages.dll
+C:\GIT\NServiceBus\ShippingMessages\bin\Debug\net7.0\Shipping.Messages.pdb
+C:\GIT\NServiceBus\ShippingMessages\bin\Debug\net7.0\NServiceBusMessaging.dll
+C:\GIT\NServiceBus\ShippingMessages\bin\Debug\net7.0\NServiceBusMessaging.pdb
+C:\GIT\NServiceBus\ShippingMessages\obj\Debug\net7.0\Shipping.Messages.csproj.AssemblyReference.cache
+C:\GIT\NServiceBus\ShippingMessages\obj\Debug\net7.0\Shipping.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\GIT\NServiceBus\ShippingMessages\obj\Debug\net7.0\Shipping.Messages.AssemblyInfoInputs.cache
+C:\GIT\NServiceBus\ShippingMessages\obj\Debug\net7.0\Shipping.Messages.AssemblyInfo.cs
+C:\GIT\NServiceBus\ShippingMessages\obj\Debug\net7.0\Shipping.Messages.csproj.CoreCompileInputs.cache
+C:\GIT\NServiceBus\ShippingMessages\obj\Debug\net7.0\Shipping.Messages.csproj.CopyComplete
+C:\GIT\NServiceBus\ShippingMessages\obj\Debug\net7.0\Shipping.Messages.dll
+C:\GIT\NServiceBus\ShippingMessages\obj\Debug\net7.0\refint\Shipping.Messages.dll
+C:\GIT\NServiceBus\ShippingMessages\obj\Debug\net7.0\Shipping.Messages.pdb
+C:\GIT\NServiceBus\ShippingMessages\obj\Debug\net7.0\ref\Shipping.Messages.dll

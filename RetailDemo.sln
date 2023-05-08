@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StockService", "StockService", "{F63042B0-B86E-4B65-83D9-4D0036DDE5F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.Messages", "ShippingMessages\Shipping.Messages.csproj", "{231F9A66-37B2-4AC1-AF18-854A405A029B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{8C1D37C8-2D64-4FF0-9A68-EAD5A90A17FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C1D37C8-2D64-4FF0-9A68-EAD5A90A17FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C1D37C8-2D64-4FF0-9A68-EAD5A90A17FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{231F9A66-37B2-4AC1-AF18-854A405A029B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231F9A66-37B2-4AC1-AF18-854A405A029B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231F9A66-37B2-4AC1-AF18-854A405A029B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231F9A66-37B2-4AC1-AF18-854A405A029B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{4D91DB5F-21D7-4A13-8235-EF894F6520F4} = {ED18F087-EC1D-418F-8FAA-BFE11DF73AB1}
 		{F0828B8D-6E55-4A52-9DAE-703B06A9A52B} = {ED18F087-EC1D-418F-8FAA-BFE11DF73AB1}
 		{8C1D37C8-2D64-4FF0-9A68-EAD5A90A17FC} = {B68D3176-BE8A-448D-BA4C-74D8291704A5}
+		{231F9A66-37B2-4AC1-AF18-854A405A029B} = {B68D3176-BE8A-448D-BA4C-74D8291704A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0FAE94F-846D-49AF-8B93-47F73CD1AC48}

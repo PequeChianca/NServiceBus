@@ -8,15 +8,15 @@ public static class NServiceBusExtensions
     public static async Task<IEndpointInstance> AddNServiceBusMessaging(string endpointName, params AssemblyRoute[] assemblies)
     {
         Console.WriteLine($"Starting endpoint {endpointName}");
-        var endpointConfig = new EndpointConfiguration(endpointName);
-        var transport = endpointConfig.UseTransport<LearningTransport>();
-
+        var endpointConfiguration = new EndpointConfiguration(endpointName);
+        var transport = endpointConfiguration.UseTransport<LearningTransport>();
+        var persistence = endpointConfiguration.UsePersistence<LearningPersistence>();
         foreach (var assemblyRoute in assemblies)
         {
             transport.Routing().RouteEndpoints(assemblyRoute.Route, assemblyRoute.Assembly);
         }
 
-        return await Endpoint.Start(endpointConfig).ConfigureAwait(false);
+        return await Endpoint.Start(endpointConfiguration).ConfigureAwait(false);
     }
 
     public static async Task RunJob(this IEndpointInstance endpointInstance, Func<IEndpointInstance, Task> job = null)

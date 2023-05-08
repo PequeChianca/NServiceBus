@@ -2,3 +2,18 @@
 2023-05-05 11:09:10.867 INFO  No valid license could be found. Falling back to trial license with start date '2023-05-03'.
 2023-05-05 11:09:18.182 INFO  Received OrderPlaced, OrderId = 1ec0c76a-c74b-4ee3-89c8-07423f53e20d - Should we ship now?
 2023-05-05 11:09:18.274 INFO  Received OrderBilled, OrderId = 1ec0c76a-c74b-4ee3-89c8-07423f53e20d - Should we ship now?
+2023-05-05 16:47:47.222 INFO  Logging to 'C:\GIT\NServiceBus\Shipping\bin\Debug\net7.0\' with level Info
+2023-05-05 16:47:47.438 INFO  No valid license could be found. Falling back to trial license with start date '2023-05-03'.
+2023-05-05 16:53:39.864 INFO  Received OrderPlaced, OrderId = 4da0044e-14d2-43f3-835f-520dc7bf712f
+2023-05-05 16:53:39.951 INFO  Received OrderBilled, OrderId = 4da0044e-14d2-43f3-835f-520dc7bf712f
+2023-05-05 16:53:40.058 INFO  Order [4da0044e-14d2-43f3-835f-520dc7bf712f] - Successfully shipped.
+2023-05-05 17:51:45.997 INFO  Logging to 'C:\GIT\NServiceBus\Shipping\bin\Debug\net7.0\' with level Info
+2023-05-05 17:51:46.349 INFO  No valid license could be found. Falling back to trial license with start date '2023-05-03'.
+2023-05-05 17:52:34.205 INFO  Received OrderPlaced, OrderId = 842a4011-af8b-4d05-8e87-c9e5cd30682a
+2023-05-05 17:52:34.292 INFO  Received OrderBilled, OrderId = 842a4011-af8b-4d05-8e87-c9e5cd30682a
+2023-05-05 17:52:34.361 INFO  Order [842a4011-af8b-4d05-8e87-c9e5cd30682a] - Successfully shipped.
+2023-05-05 17:53:35.967 INFO  Logging to 'C:\GIT\NServiceBus\Shipping\bin\Debug\net7.0\' with level Info
+2023-05-05 17:53:36.207 INFO  No valid license could be found. Falling back to trial license with start date '2023-05-03'.
+2023-05-05 17:54:05.614 INFO  Received OrderPlaced, OrderId = e8e1488a-8489-4c35-ae1a-18ea8b0c2db7
+2023-05-05 17:54:05.673 INFO  Received OrderBilled, OrderId = e8e1488a-8489-4c35-ae1a-18ea8b0c2db7
+2023-05-05 17:54:05.741 INFO  Order [e8e1488a-8489-4c35-ae1a-18ea8b0c2db7] - Successfully shipped.
